@@ -12,6 +12,7 @@
 		638884011DC151C400ACA529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638883FF1DC151C400ACA529 /* Main.storyboard */; };
 		638884031DC151C400ACA529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638884021DC151C400ACA529 /* Assets.xcassets */; };
 		638884061DC151C400ACA529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638884041DC151C400ACA529 /* LaunchScreen.storyboard */; };
+		BB0986641DC250C4009D460C /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0986631DC250C4009D460C /* PlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		638884021DC151C400ACA529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		638884051DC151C400ACA529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638884071DC151C400ACA529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0986631DC250C4009D460C /* PlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				638883FB1DC151C400ACA529 /* AppDelegate.swift */,
 				638883FD1DC151C400ACA529 /* ViewController.swift */,
+				BB0986631DC250C4009D460C /* PlayerView.swift */,
 				638883FF1DC151C400ACA529 /* Main.storyboard */,
 				638884021DC151C400ACA529 /* Assets.xcassets */,
 				638884041DC151C400ACA529 /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					638883F71DC151C400ACA529 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2CKNNNH7SR;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB0986641DC250C4009D460C /* PlayerView.swift in Sources */,
 				638883FE1DC151C400ACA529 /* ViewController.swift in Sources */,
 				638883FC1DC151C400ACA529 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +263,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CKNNNH7SR;
 				INFOPLIST_FILE = Meloman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lashkhi.Meloman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2CKNNNH7SR;
 				INFOPLIST_FILE = Meloman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lashkhi.Meloman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -297,6 +306,7 @@
 				6388840C1DC151C400ACA529 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
